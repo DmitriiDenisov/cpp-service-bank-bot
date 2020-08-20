@@ -10,11 +10,27 @@
 
 ### Input example:
 ```
-
+{
+  foo='blabla',
+  pew=32,
+  count=['a', 'b'],
+  double_param=2.31
+}
 ```
 
 ### Output example:
 
 ```
-
+{
+  "arr1":[1,3,4],
+  "list_str":["a","b"],
+  "double_param":3.31,
+  "arr2":[null,2],
+  "message":"Hello, World!",
+  "success":1,
+  "foo":"'blabla'",
+  "pew_double":16,
+  "pew_str":"32",
+  "pew_int_stoi":35
+}
 ```
